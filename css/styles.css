@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-navbar{
+    display: flex;
+    background-color: #3F3737;
+
+}
+
+.container-botoes{
+    display: flex;
+    align-items: flex-end;
+}
+
+.separador{
+    /*
+    background-color: red;
+    */
+    padding-right: 23%;
+}
+
+.pesquisar{
+    width: 200px;
+    height: 30px;
+}
+
+.botoes{
+    list-style-type: none;
+    display: flex;
+}
+
+.container-pesquisar{
+    display: flex;
+    align-items: center
+}
+
+li{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: #222831;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+input{
+    outline: none;
+    background-color: gray;
+}
+
+.separador-segundo{
+
+    /*
+    background-color: red;
+    */
+    padding-right: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-navbar{
+    width: 100px;
+    height: 100px;
+}
+
+::placeholder{
+    color: black;
+}
+
+
+
+.container-de-paises{
+    border: 2px solid blue;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pais{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid gray;
+}
+
+#pais-ultimo{
+    display: block;
+}
+
+.pais{
+    padding: 20px;
+}
